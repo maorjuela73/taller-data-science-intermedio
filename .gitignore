@@ -1,0 +1,4 @@
+# Ignore env folder
+env/
+
+.DS_Store
