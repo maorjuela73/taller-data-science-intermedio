@@ -20,3 +20,5 @@ model.fit(X_train, y_train)
 # Evaluar el modelo con los datos de prueba
 accuracy = model.score(X_test, y_test)
 print("Exactitud del modelo:", accuracy)
+
+# %%

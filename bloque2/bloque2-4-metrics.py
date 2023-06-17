@@ -30,3 +30,5 @@ f1 = f1_score(y_test, y_pred, average='weighted')
 print("Precisión (Accuracy):", accuracy)
 print("Recall:", recall)
 print("F1-score:", f1)
+
+# %%
