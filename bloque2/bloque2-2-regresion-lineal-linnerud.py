@@ -58,6 +58,14 @@ regression.fit(X_poly, y)
 y_pred = regression.predict(X_poly)
 
 #%%
+# Obtener el R2 del modelo lineal
+print('R2 del modelo lineal: ', regression.score(X_poly, y))
+
+# Obtener el MSE del modelo lineal
+from sklearn.metrics import mean_squared_error
+print('MSE del modelo lineal: ', mean_squared_error(y, y_pred))
+
+#%%
 # Ordenar los puntos para graficar la línea polinómica
 sort_indices = np.argsort(X, axis=0)
 X_sorted = X[sort_indices]
